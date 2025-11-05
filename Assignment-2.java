@@ -1,3 +1,12 @@
+// Movie Recommendation System Optimization 
+// A popular OTT platform, StreamFlix, offers personalized recommendations by sorting movies 
+// based on user preferences, such as IMDB rating, release year, or watch time popularity. 
+// However, during peak hours, sorting large datasets slows down the system. 
+// As a backend engineer, you must: 
+// ● Implement Quicksort to efficiently sort movies based on various user-selected 
+// parameters. 
+// ● Handle large datasets containing of  movies while maintaining fast response times 
+
 //Name:Jai Chandegave
 //PRN:123B1F016
 //Date:04/11/2025
@@ -67,4 +76,5 @@ public class StreamFlix {
         System.out.println("\nSorted by " + key + ":");
         for (Movie m : movies) System.out.println(m);
     }
+
 }
